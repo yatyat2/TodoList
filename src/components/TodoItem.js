@@ -11,6 +11,7 @@ class TodoItem extends Component {
           className="remove"
           onClick={e => {
             e.stopPropagation();
+            onRemove(id)
           }}
         >
           &times;
